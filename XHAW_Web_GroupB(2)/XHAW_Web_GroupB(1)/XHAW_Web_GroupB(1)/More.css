@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Assets/FindOutMore.jpg'); /* Replace with your background image path */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for readability */
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Adjust as needed */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #007BFF; 
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content readability */
+    border-radius: 8px; /* Rounded corners for content */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.course-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.course-item {
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.course-image {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.course-details {
+    margin-top: 20px;
+}
+
+.apply-button {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light background for footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
