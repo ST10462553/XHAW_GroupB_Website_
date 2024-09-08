@@ -14,3 +14,8 @@
 ### Programming Languages used for making the project:
 - HTML + CSS (for the website)
 - Kotlin (for the app)
+
+  ### Webpages on the website include :
+  1. Homepage
+      *(contains basic background information on the organisation)
+  - Six-month courses ( contains all the six-month courses Empowering 
