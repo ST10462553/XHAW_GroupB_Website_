@@ -19,14 +19,18 @@
  ### 1. Homepage
   * Contains basic background information on the organisation
   * Option to navigate to other webpages(using hyperlinks and buttons)
+  * User can find out more about the courses and navigate to applications pages
+  * Includes the logo(top-left of the page)
  ### 2. Six-month courses
   * This page contains all the six-month courses Empowering the nation has to offer alongside an "apply" button.
   * Option to navigate to other webpages(using hyperlinks and buttons)
   * Information regarding each course's content and pricing is outlined
+  * Includes the logo(on the top-left of the page)
 ### 3. Six-week courses
     * This page contains all the six-week courses Empowering the Nation has to offer alongside an "apply" button
     * Option to navigate to other webpages(using hyperlinks and buttons)
     * Information regarding each courses content and pricing is outlined
+    Includes the logo(on the top-left of the page)
 
  ### 4. Apply
      * Users are prompted to fill out a form with their personal details and desired course before submitting their application.
