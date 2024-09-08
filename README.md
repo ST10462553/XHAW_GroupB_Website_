@@ -30,9 +30,14 @@
     * This page contains all the six-week courses Empowering the Nation has to offer alongside an "apply" button
     * Option to navigate to other webpages(using hyperlinks and buttons)
     * Information regarding each courses content and pricing is outlined
-    Includes the logo(on the top-left of the page)
+    * Includes the logo(on the top-left of the page)
 
  ### 4. Apply
      * Users are prompted to fill out a form with their personal details and desired course before submitting their application.
      * Unsure users can go back to the courses pages or they could navigate to "find out more" to understand the benefits of participating in each course.
      * This page's fields are required, meaning the form has error-handling to ensure that a user fills everything out before submitting.
+
+   ### 5. Calculate total fees
+   * Checkboxes with courses and their fees are provided
+   * Users can select one or more courses and determine whether or not, they qualify for a discount
+   * An invoice is provided at the bottom of the screen with the total fees before and after discount (if applicable).
