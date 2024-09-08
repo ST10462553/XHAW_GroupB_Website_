@@ -43,7 +43,7 @@
    * An invoice is provided at the bottom of the screen with the total fees before and after discount (if applicable).
 
  ### The website:
- <img width="900" alt="homepage_snap" src="https://github.com/user-attachments/assets/5fd16ee5-245d-4990-93c6-2f0783db4e68">
+ <img width="800" alt="homepage_snap" src="https://github.com/user-attachments/assets/5fd16ee5-245d-4990-93c6-2f0783db4e68">
 
 
 
