@@ -11,7 +11,7 @@
 - Palesa
 
 
-### Programming Languages used for making the project:
+### 📱Programming Languages used for making the project💻:
 - HTML + CSS (for the website)
 - Kotlin (for the app)
 
