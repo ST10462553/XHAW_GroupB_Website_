@@ -51,3 +51,6 @@
  
 
 <img width="780" alt="six-week_snap" src="https://github.com/user-attachments/assets/f1d1461c-6933-4c86-a84e-3d3f165a7bb7">
+
+
+<img width="600" alt="apply_snap" src="https://github.com/user-attachments/assets/0bb364ac-02ab-4d30-8604-f9d4de935280">
