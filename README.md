@@ -16,16 +16,19 @@
 - Kotlin (for the app)
 
   ### Webpages on the website include :
-  1. Homepage
-  * contains basic background information on the organisation
-  * option to navigate to other webpages(using hyperlinks and buttons)
-  2. Six-month courses
+ ### 1. Homepage
+  * Contains basic background information on the organisation
+  * Option to navigate to other webpages(using hyperlinks and buttons)
+ ### 2. Six-month courses
   * This page contains all the six-month courses Empowering the nation has to offer alongside an "apply" button.
-  * option to navigate to other webpages(using hyperlinks and buttons)
- 3. Six-week courses
+  * Option to navigate to other webpages(using hyperlinks and buttons)
+  * Information regarding each course's content and pricing is outlined
+### 3. Six-week courses
     * This page contains all the six-week courses Empowering the Nation has to offer alongside an "apply" button
-    * option to navigate to other webpages(using hyperlinks and buttons)
+    * Option to navigate to other webpages(using hyperlinks and buttons)
+    * Information regarding each courses content and pricing is outlined
 
-  4. Apply
+ ### 4. Apply
      * Users are prompted to fill out a form with their personal details and desired course before submitting their application.
-     * unsure users can go back to the courses pages or they could navigate to "find out more" to understand the benefits of participating in each course.
+     * Unsure users can go back to the courses pages or they could navigate to "find out more" to understand the benefits of participating in each course.
+     * This page's fields are required, meaning the form has error-handling to ensure that a user fills everything out before submitting.
