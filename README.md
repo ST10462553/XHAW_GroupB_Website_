@@ -5,7 +5,7 @@
 
 ### Group B members:
 - Siyolise
-- Denzil
 - Derrick
+- Denzil
 - Dimakatso
 - Palesa
