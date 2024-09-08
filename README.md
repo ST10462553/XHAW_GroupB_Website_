@@ -22,10 +22,10 @@
   * User can find out more about the courses and navigate to applications pages
   * Includes the logo(top-left of the page)
  ### 2. Six-month courses
-  * This page contains all the six-month courses Empowering the nation has to offer alongside an "apply" button.
-  * Option to navigate to other webpages(using hyperlinks and buttons)
-  * Information regarding each course's content and pricing is outlined
-  * Includes the logo(on the top-left of the page)
+* This page contains all the six-month courses Empowering the nation has to offer alongside an "apply" button.
+* Option to navigate to other webpages(using hyperlinks and buttons)
+* Information regarding each course's content and pricing is outlined
+* Includes the logo(on the top-left of the page)
 ### 3. Six-week courses
     * This page contains all the six-week courses Empowering the Nation has to offer alongside an "apply" button
     * Option to navigate to other webpages(using hyperlinks and buttons)
