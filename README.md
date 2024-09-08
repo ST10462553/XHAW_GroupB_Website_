@@ -43,21 +43,26 @@
    * An invoice is provided at the bottom of the screen with the total fees before and after discount (if applicable).
 
  ### The website:
+ #### Home page:
  <img width="600" alt="homepage_snap" src="https://github.com/user-attachments/assets/5fd16ee5-245d-4990-93c6-2f0783db4e68">
 
 
-
+#### Six-month page:
 <img width="600" alt="six-month courses_snap" src="https://github.com/user-attachments/assets/c29dd06f-da72-4968-9e59-2a6cbe2e7516">
  
 
+#### Six-week page:
 <img width="600" alt="six-week_snap" src="https://github.com/user-attachments/assets/f1d1461c-6933-4c86-a84e-3d3f165a7bb7">
 
-
+#### Apply page:
 <img width="600" alt="apply_snap" src="https://github.com/user-attachments/assets/0bb364ac-02ab-4d30-8604-f9d4de935280">
 
+#### Contact us page:
 <img width="600" alt="contact_snap" src="https://github.com/user-attachments/assets/c7612f28-d9a0-45fa-9137-085119769f2f">
 
+#### Total fees page:
 <img width="600" alt="totalfees_snap" src="https://github.com/user-attachments/assets/107cea89-2594-4f4a-a7c2-2a6c5480ae09">
 
+#### Find out more page:
 <img width="600" alt="findoutmore_snip" src="https://github.com/user-attachments/assets/88cc4ccf-a112-4415-b5df-a1384092e5e7">
 
