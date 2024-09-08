@@ -47,5 +47,5 @@
 
 
 
-<img width="947" alt="six-month courses_snap" src="https://github.com/user-attachments/assets/c29dd06f-da72-4968-9e59-2a6cbe2e7516">
+<img width="800" alt="six-month courses_snap" src="https://github.com/user-attachments/assets/c29dd06f-da72-4968-9e59-2a6cbe2e7516">
  
