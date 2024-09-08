@@ -41,3 +41,6 @@
    * Checkboxes with courses and their fees are provided
    * Users can select one or more courses and determine whether or not, they qualify for a discount
    * An invoice is provided at the bottom of the screen with the total fees before and after discount (if applicable).
+
+ ### The website:
+ <Image src="homepage-snap.png">
