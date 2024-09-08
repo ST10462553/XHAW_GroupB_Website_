@@ -18,5 +18,5 @@
   ### Webpages on the website include :
   1. Homepage
   * (contains basic background information on the organisation)
-  3. Six-month courses
+  2. Six-month courses
   * This contains all the six-month courses Empowering the nation has to offer alongside an "apply" button. 
