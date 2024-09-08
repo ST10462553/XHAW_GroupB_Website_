@@ -17,6 +17,15 @@
 
   ### Webpages on the website include :
   1. Homepage
-  * (contains basic background information on the organisation)
+  * contains basic background information on the organisation
+  * option to navigate to other webpages(using hyperlinks and buttons)
   2. Six-month courses
-  * This contains all the six-month courses Empowering the nation has to offer alongside an "apply" button. 
+  * This page contains all the six-month courses Empowering the nation has to offer alongside an "apply" button.
+  * option to navigate to other webpages(using hyperlinks and buttons)
+ 3. Six-week courses
+    * This page contains all the six-week courses Empowering the Nation has to offer alongside an "apply" button
+    * option to navigate to other webpages(using hyperlinks and buttons)
+
+  4. Apply
+     * Users are prompted to fill out a form with their personal details and desired course before submitting their application.
+     * unsure users can go back to the courses pages or they could navigate to "find out more" to understand the benefits of participating in each course.
