@@ -6,9 +6,10 @@
 ### 👨 Group B members 👩:
 - Siyolise
 - Derrick
-- Denzil
-- Dimakatso
 - Palesa
+- ~~Denzil~~
+- ~~Dimakatso~~
+
 
 
 ### 📱Programming Languages used for making the project💻:
