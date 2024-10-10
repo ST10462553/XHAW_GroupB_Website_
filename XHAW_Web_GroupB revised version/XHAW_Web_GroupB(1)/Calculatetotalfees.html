@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Calculate the total fees for Empowering the Nation's courses.">
+<meta name="keywords" content="e-learning, calculate fees, training programs">
+<title>Total Fees</title>
+<link rel="stylesheet" href="calculatstyles.css">
+
+<!-- Adding Google Fonts for a modern look -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<script>
+function calculateTotal() {
+    const checkboxes = document.querySelectorAll('input[name="course"]:checked');
+    const duration = parseFloat(document.getElementById('duration').value);
+    let totalPrice = 0;
+    
+    checkboxes.forEach(checkbox => {
+        const coursePrice = parseFloat(checkbox.getAttribute('data-price'));
+        totalPrice += coursePrice * duration;
+    });
+    
+    const numCourses = checkboxes.length;
+    let discount = 0;
+    
+    if (numCourses === 2) {
+        discount = 0.05; // 5% discount
+    } else if (numCourses === 3) {
+        discount = 0.10; // 10% discount
+    } else if (numCourses > 3) {
+        discount = 0.15; // 15% discount
+    }
+    
+    const discountedPrice = totalPrice * (1 - discount);
+    const totalBeforeDiscount = `Total Fees (Before Discount): R${totalPrice.toFixed(2)}`;
+    const totalAfterDiscount = `Total Fees (After Discount): R${discountedPrice.toFixed(2)} (Discount: ${discount * 100}%)`;
+
+    // Animate the result display
+    const totalBeforeElem = document.getElementById('total-before-discount');
+    const totalAfterElem = document.getElementById('total-after-discount');
+    
+    totalBeforeElem.innerText = totalBeforeDiscount;
+    totalAfterElem.innerText = totalAfterDiscount;
+    
+    // Add animation class to fade-in results
+    totalBeforeElem.classList.add('fade-in');
+    totalAfterElem.classList.add('fade-in');
+}
+</script>
+</head>
+
+<body>
+<div class="banner">
+    <div class="navbar">
+        <img src="./Assets/HotelFlaviaLogo.jpg" class="logo" style="opacity: 0.8;">
+        <ul>
+            <li><a href="Homepage.html">HomePage</a></li>
+            <li><a href="Sixmonthcourses.html">Six-month courses</a></li>
+            <li><a href="Sixweekcourses.html">Six-week courses</a></li>
+            <li><a href="Contactdetails.html">Contact details</a></li>
+            <li><a href="Calculatetotalfees.html">Total fees</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Calculate Total Fees</h1>
+        <form onsubmit="event.preventDefault(); calculateTotal();">
+            <div>
+                <label><input type="checkbox" name="course" data-price="1500"> First Aid - R1500</label><br>
+                <label><input type="checkbox" name="course" data-price="1200"> Sewing - R1200</label><br>
+                <label><input type="checkbox" name="course" data-price="1800"> Landscaping - R1800</label><br>
+                <label><input type="checkbox" name="course" data-price="1000"> Life Skills - R1000</label><br>
+                <label><input type="checkbox" name="course" data-price="750"> Child Minding - R750</label><br>
+                <label><input type="checkbox" name="course" data-price="750"> Cooking - R750</label><br>
+                <label><input type="checkbox" name="course" data-price="750"> Garden Maintenance - R750</label>
+            </div>
+            
+            <label for="duration">Duration (in weeks):</label>
+            <input type="number" id="duration" name="duration" min="1" required>
+            
+            <button type="submit">Calculate Fees</button>
+        </form>
+
+        <!-- Adding transition classes to animate result display -->
+        <p id="total-before-discount" class="total-text"></p>
+        <p id="total-after-discount" class="total-text"></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Empowering the Nation. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Find out more about Empowering the Nation's courses and training programs.">
+<meta name="keywords" content="e-learning, skills training, find out more">
+<title>Find Out More</title>
+<link rel="stylesheet" href="More.css">
+</head>
+
+<body>
+<div class="banner">
+    <div class="navbar">
+        <img src="./Assets/HotelFlaviaLogo.jpg" class="logo" style="opacity: 0.8;">
+
+        <ul>
+            <li><a href="Homepage.html">HomePage</a></li>
+            <li><a href="Sixmonthcourses.html">Six-month courses</a></li>
+            <li><a href="Sixweekcourses.html">Six-week courses</a></li>
+            <li><a href="Contactdetails.html">Contact details</a></li>
+            <li><a href="Calculatetotalfees.html">Total fees</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Find Out More</h1>
+        <p>
+            At Empowering the Nation, we offer a variety of courses designed to help individuals enhance their skills and improve their career prospects. Learn about our different training programs and discover how they can benefit you.
+        </p>
+
+        <div class="course-gallery">
+            <div class="course-item" onclick="showDetails('first-aid')">
+                <img src="./Assets/first-aid.jpg" alt="First Aid" class="course-image">
+                <p>First Aid</p>
+            </div>
+            <div class="course-item" onclick="showDetails('sewing')">
+                <img src="./Assets/sewing.jpg" alt="Sewing" class="course-image">
+                <p>Sewing</p>
+            </div>
+            <div class="course-item" onclick="showDetails('landscaping')">
+                <img src="./Assets/landscaping.jpg" alt="Landscaping" class="course-image">
+                <p>Landscaping</p>
+            </div>
+            <div class="course-item" onclick="showDetails('life-skills')">
+                <img src="./Assets/life-skills.jpg" alt="Life Skills" class="course-image">
+                <p>Life Skills</p>
+            </div>
+            <div class="course-item" onclick="showDetails('child-minding')">
+                <img src="./Assets/child minding.jpg" alt="Child Minding" class="course-image">
+                <p>Child Minding</p>
+            </div>
+            <div class="course-item" onclick="showDetails('cooking')">
+                <img src="./Assets/cooking.jpg" alt="Cooking" class="course-image">
+                <p>Cooking</p>
+            </div>
+            <div class="course-item" onclick="showDetails('garden-maintenance')">
+                <img src="./Assets/gardening.jpg" alt="Garden Maintenance" class="course-image">
+                <p>Garden Maintenance</p>
+            </div>
+        </div>
+
+        <div id="course-details" class="course-details">
+            <!-- Course details will be dynamically inserted here -->
+        </div>
+
+        <a href="apply.html" class="apply-button">Apply Now</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Empowering the Nation. All rights reserved.</p>
+</footer>
+
+<script>
+    function showDetails(course) {
+        const details = {
+            'first-aid': {
+                title: 'First Aid',
+                description: 'Our First Aid course provides essential skills to handle emergency situations with confidence and knowledge.'
+            },
+            'sewing': {
+                title: 'Sewing',
+                description: 'The Sewing course covers basic and advanced techniques to create beautiful and functional garments.'
+            },
+            'landscaping': {
+                title: 'Landscaping',
+                description: 'Our Landscaping course teaches skills for designing and maintaining outdoor spaces, enhancing aesthetics and functionality.'
+            },
+            'life-skills': {
+                title: 'Life Skills',
+                description: 'The Life Skills course focuses on developing practical skills for personal and professional growth.'
+            },
+            'child-minding': {
+                title: 'Child Minding',
+                description: 'Our Child Minding course covers essential skills for caring for children, including safety and developmental activities.'
+            },
+            'cooking': {
+                title: 'Cooking',
+                description: 'The Cooking course teaches various culinary techniques, from basic to advanced, for preparing delicious meals.'
+            },
+            'garden-maintenance': {
+                title: 'Garden Maintenance',
+                description: 'The Garden Maintenance course provides knowledge on maintaining and enhancing garden spaces, including plant care and landscaping.'
+            }
+        };
+
+        const courseDetail = details[course];
+        const detailSection = document.getElementById('course-details');
+        detailSection.innerHTML = `
+            <h2>${courseDetail.title}</h2>
+            <p>${courseDetail.description}</p>
+        `;
+    }
+</script>
+
+</body>
+</html>
