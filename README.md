@@ -43,6 +43,11 @@
    * Users can select one or more courses and determine whether or not, they qualify for a discount
    * An invoice is provided at the bottom of the screen with the total fees before and after discount (if applicable).
 
+ ### 6. Current student profile screen
+   * Here users can upload and update their personal information
+   * Alternatively they can just read their current details in the school's system
+   * The user is able to upload documents as well.
+
  ### The website:
  #### Home page 🏯:
  <img width="600" alt="homepage snap" src="https://github.com/user-attachments/assets/a9bf5e89-bf7b-4d9b-95ab-d21a0dd094ed">
