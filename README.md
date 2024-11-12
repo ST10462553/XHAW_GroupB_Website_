@@ -14,7 +14,7 @@
 
 ### 📱Programming Languages used for making the project💻:
 - HTML + CSS (for the website)
-- Kotlin/ React native (for the app)
+- React native (for the app)
 
   ### Webpages on the website include :
  ### 1. Homepage
