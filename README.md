@@ -67,3 +67,6 @@
 #### Find out more page 🔎:
 <img width="600" alt="findoutmore_snip" src="https://github.com/user-attachments/assets/88cc4ccf-a112-4415-b5df-a1384092e5e7">
 
+#### Current student profile page  👩👨:
+<img width="960" alt="Current student profile feature 1" src="https://github.com/user-attachments/assets/0b2434c3-8480-47b2-92e5-80586323078f">
+<img width="960" alt="current student snap" src="https://github.com/user-attachments/assets/e7fab09c-c6c4-4982-bad0-8478f3abe89f">
