@@ -45,7 +45,7 @@
 
  ### The website:
  #### Home page 🏯:
- <img width="600" alt="homepage_snap" src="https://github.com/user-attachments/assets/5fd16ee5-245d-4990-93c6-2f0783db4e68">
+ <img width="600" alt="homepage snap" src="https://github.com/user-attachments/assets/a9bf5e89-bf7b-4d9b-95ab-d21a0dd094ed">
 
 
 #### Six-month page:
